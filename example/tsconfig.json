@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "plugins": [
+      {
+        "transform": "typescript-tracing-compiler-plugin"
+      }
+    ],
+    "outDir": "dist",
+  },
+  "include": ["src/**/*.ts"],
+}

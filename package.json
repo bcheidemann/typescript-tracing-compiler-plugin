@@ -1,0 +1,27 @@
+{
+  "name": "typescript-tracing-compiler-plugin",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "workspaces": [
+    "plugin",
+    "example"
+  ],
+  "scripts": {
+    "prepare": "ts-patch install"
+  },
+  "author": "Ben Hediemann <ben@heidemann.dev>",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.6",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1",
+    "ts-patch": "^3.1.2"
+  }
+}
