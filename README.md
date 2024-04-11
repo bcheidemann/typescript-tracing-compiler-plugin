@@ -3,8 +3,8 @@
 ## Example input
 
 ```ts
-instrument: function log(timestamp: string, message: string) {
-  console.log(timestamp, message);
+instrument: function add(a: number, b: number) {
+  return a + b;
 }
 ```
 
